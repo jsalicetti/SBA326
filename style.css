@@ -143,6 +143,11 @@ main {
     justify-content: space-between;
 }
 
+.fullStorage {
+    display: flex;
+    justify-content: right;
+}
+
 footer {
     margin-top: auto;
 }
