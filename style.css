@@ -8,3 +8,14 @@ body {
     color: hsl(229, 7%, 55%);
 }
 
+.message2 {
+    color: hsl(243, 100%, 93%);
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
