@@ -1,27 +1,8 @@
-/*body {
-    background-color: hsl(229, 57%, 11%);
-    background-image: url("images/bg-desktop.png");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center bottom;
-    font-family: sans-serif;
-    color: hsl(229, 7%, 55%);
-}
-*/
 
 .message1 {
     color: white;
     font-family: "Raleway";
 }
-
-/*.header {
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-    justify-content: center;
-    align-items: center;
-}
-*/
 
 
 .headerContent {
@@ -49,7 +30,7 @@
 
 .main {
     display: flex;
-    min-width: 900px;
+    min-width: 90%;
     
 }
 
@@ -126,26 +107,6 @@ main {
     font-family: "Raleway";
 }
 
-/*.storageUsed {
-    background: linear-gradient(90deg, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
-    border-radius: 20px;
-    height: 20px;
-    width: calc((815/1000)*100%);
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-}
-*/
-
-/*.storageMeasure {
-    background-color: white;
-    height: 15px;
-    width: 15px;
-    border-radius: 15px;
-    margin: 3px;
-}
-*/
-
 .storageLabel {
     display: flex;
     justify-content: space-between;
@@ -178,7 +139,7 @@ footer {
     font-family: "Raleway";
 }
 
-@media all and (max-width:375px) {
+@media all and (max-width:376px) {
 .main{
      min-width: auto;
      flex-wrap: wrap;
