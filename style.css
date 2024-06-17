@@ -137,13 +137,14 @@ main {
 }
 */
 
-.storageMeasure {
+/*.storageMeasure {
     background-color: white;
     height: 15px;
     width: 15px;
     border-radius: 15px;
     margin: 3px;
 }
+*/
 
 .storageLabel {
     display: flex;
