@@ -8,7 +8,7 @@ body {
     color: hsl(229, 7%, 55%);
 }
 
-.message2 {
+.message1 {
     color: hsl(243, 100%, 93%);
 }
 
@@ -22,6 +22,31 @@ body {
 
 .headerContent {
     flex: 1 1 auto;
+}
+
+.headerContent {
+    flex: 1 1 auto;
+    background-color: hsl(228, 56%, 26%);
+    border-radius: 10px 70px 10px 10px;
+    padding: 30px 120px 30px 30px;
+    margin: 10px;
+    
+}
+
+.header-content {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 180px;
+}
+
+.header-content {
+    flex: 1 1 auto;
+}
+
+.main {
+    display: flex;
+    min-width: 900px;
+    
 }
 
 main {
