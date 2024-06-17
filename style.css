@@ -57,3 +57,98 @@ main {
     margin: 50px 10px 10px 10px;
 }
 
+.iconImages {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 0 0 0 ;
+}
+
+.iconImage {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: hsl(229, 57%, 11%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bar1 {
+    position: relative;
+}
+
+.blankStorage {
+    background-color: hsl(229, 57%, 11%);
+    border-radius: 20px;
+    margin: 15px 0 5px 0;
+    height: 20px;
+}
+
+.bubble1 {
+    position: absolute;
+    left: 64%;
+    bottom: calc(100% + 30px);
+}
+
+.storageLeft {
+    position: relative;
+    width: auto;
+	background: #f5f5f5;
+    border-radius: 10px 10px 0 10px;
+    padding: 20px;
+}
+
+.storageLeft:after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: auto;
+	width: 0;
+	height: 0;
+	border: 38px solid transparent;
+	border-top-color: #f5f5f5;
+	border-bottom: 0;
+	border-right: 0;
+	margin-left: -18px;
+	margin-bottom: -20px;
+}
+
+.storageInfoLeft {
+    font-size: xx-large;
+    font-weight: 700;
+    color: black;
+}
+
+.storageUsed {
+    background: linear-gradient(90deg, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
+    border-radius: 20px;
+    height: 20px;
+    width: calc((815/1000)*100%);
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.storageMeasure {
+    background-color: white;
+    height: 15px;
+    width: 15px;
+    border-radius: 15px;
+    margin: 3px;
+}
+
+.storageLabel {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer {
+    margin-top: auto;
+}
+
+.storageLeft {
+    border-radius: 10px;
+}
+
+
