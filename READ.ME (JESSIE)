@@ -1,0 +1,10 @@
+- linked my css and bootstrap to html
+- added background image and container for this
+- created containers for the header text and container in which the text were to sit in
+- created containers for the icon images 
+- created containers for the additional images/icons 
+- adjusted container and text alignment
+- adjusted colors, fonts, text sizes etc.
+- adjusted the alignment of both parent containers for the icon images as well as the GB images/icons
+- created css styles on style.css and once completed and confirmed the functionality I transferred it over to HTML bootstrap
+- created media query to allow for adjustment changes to be made once reflected on a mobile device. 
