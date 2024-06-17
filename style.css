@@ -1,6 +1,6 @@
 body {
     background-color: hsl(229, 57%, 11%);
-    background-image: url("images/bg-desktop.svg");
+    background-image: url("images/bg-desktop.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center bottom;
@@ -9,7 +9,8 @@ body {
 }
 
 .message1 {
-    color: hsl(243, 100%, 93%);
+    color: white;
+    font-family: "Raleway";
 }
 
 .header {
@@ -72,7 +73,9 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-right: 10px;
 }
+    
 
 .bar1 {
     position: relative;
@@ -118,6 +121,7 @@ main {
     font-size: xx-large;
     font-weight: 700;
     color: black;
+    font-family: "Raleway";
 }
 
 .storageUsed {
@@ -143,9 +147,22 @@ main {
     justify-content: space-between;
 }
 
+.zeroStorage {
+    display: flex;
+    justify-content: left;
+    font-family: "Raleway";
+}
+
+.storageTitle {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
 .fullStorage {
     display: flex;
     justify-content: right;
+    margin-top:-18px;
+    font-family: "Raleway";
 }
 
 footer {
@@ -154,6 +171,7 @@ footer {
 
 .storageLeft {
     border-radius: 10px;
+    font-family: "Raleway";
 }
 
 
