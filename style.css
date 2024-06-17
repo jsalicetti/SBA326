@@ -174,4 +174,29 @@ footer {
     font-family: "Raleway";
 }
 
+@media all and (max-width:375px) {
+.main{
+     min-width: auto;
+     flex-wrap: wrap;
+     max-width: auto;
+}
 
+main {
+margin-top: 10px;
+    
+}
+
+.storageLeft {
+    display: none;
+}
+
+.storageLeft {
+    border-radius: 10px;
+}
+
+.bubble1 {
+    bottom: -110px;
+    left: 30%;
+}
+
+}
