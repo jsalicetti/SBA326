@@ -1,4 +1,4 @@
-body {
+/*body {
     background-color: hsl(229, 57%, 11%);
     background-image: url("images/bg-desktop.png");
     background-repeat: no-repeat;
@@ -7,19 +7,22 @@ body {
     font-family: sans-serif;
     color: hsl(229, 7%, 55%);
 }
+*/
 
 .message1 {
     color: white;
     font-family: "Raleway";
 }
 
-.header {
+/*.header {
     display: flex;
     flex-direction: column;
     height: 100vh;
     justify-content: center;
     align-items: center;
 }
+*/
+
 
 .headerContent {
     flex: 1 1 auto;
@@ -123,7 +126,7 @@ main {
     font-family: "Raleway";
 }
 
-.storageUsed {
+/*.storageUsed {
     background: linear-gradient(90deg, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
     border-radius: 20px;
     height: 20px;
@@ -132,6 +135,7 @@ main {
     align-items: center;
     justify-content: flex-end;
 }
+*/
 
 .storageMeasure {
     background-color: white;

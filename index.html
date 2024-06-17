@@ -23,9 +23,20 @@
   <link rel="stylesheet" href="style.css">
 
 </head>
-<body>
+<body style="background-color: hsl(229, 57%, 11%);
+background-image: url('images/bg-desktop.png');
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center bottom;
+font-family: sans-serif;
+color: hsl(229, 7%, 55%);">
   
-  <div class="header">
+  <div class="header" style="display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;">
+
     <div class="main">
       <header>
         <div class="headerContent">
@@ -46,7 +57,14 @@
 
         <div class="bar1">
           <div class="blankStorage">
-            <div class="storageUsed">
+            <div class="storageUsed" style="background: linear-gradient(90deg, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
+            border-radius: 20px;
+            height: 20px;
+            width: calc((815/1000)*100%);
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;">
+            
               <div class="storageMeasure"></div>
             </div>
         </div>
